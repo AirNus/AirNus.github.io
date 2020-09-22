@@ -1,1 +1,5 @@
-# AirNus.github.io
+# [ИДБ-17-05](https://github.com/stankin/design-part-1/wiki/list-idb-17-05) Мазитов Айнур
+
+# Лабораторная 1
+
+# Лабораторная 2
