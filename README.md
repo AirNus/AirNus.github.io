@@ -17,3 +17,21 @@
 ![none](https://github.com/AirNus/AirNus.github.io/blob/master/Labs1/Lab1_2_2.png?raw=true)
 
 # Лабораторная 2
+
+## IDEF0 diagram
+
+Контекстная:
+
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/01_A0.png?raw=true)
+
+Средний уровень:
+    
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/02_A0.png?raw=true)
+    
+## DFD-диаграмма (блок:Управлять):
+    
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/03_A1.png?raw=true)
+
+## Usecase diagram
+
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/Lab2_usecase_diagram.png?raw=true)
