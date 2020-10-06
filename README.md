@@ -35,3 +35,13 @@
 ## Usecase diagram
 
 ![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/Lab2_usecase_diagram.png?raw=true)
+
+# Лабораторная 3
+
+## Диаграмма последовательности
+
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/laba3.png?raw=true)
+
+## ER-диаграмма
+
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba.png?raw=true)
