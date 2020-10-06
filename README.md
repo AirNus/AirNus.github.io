@@ -22,7 +22,7 @@
 
 Контекстная:
 
-![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/02_A0.png?raw=true)
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/01_A0.png?raw=true)
 
 Средний уровень:
     
