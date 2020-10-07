@@ -13,7 +13,9 @@
 ![none](https://github.com/AirNus/AirNus.github.io/blob/master/Labs1/JSwn2i903CRnkVSKePE2J-1Kprbq41mbt8Ksz7efkIiTn7StfOlhnvzVqfMAMfSfkJ9odb5nWf2m5FYuncCOUvKbnwiaKNWDNCar5rLPzyKdIomKZQJ_qzVjIkjHsMwqW0KUXiAJS9RgRZZImGidplrxnKfwWlkc7CzROi30aI2mXaIkenpjoHy0.png?raw=true)
 
 ## Usecase diagram
-
+ [Текст](https://github.com/AirNus/AirNus.github.io/blob/master/Labs1/PlantUML_code%20%E2%80%94%20laba1UseCase.txt) и
+ [рисунок](https://github.com/AirNus/AirNus.github.io/blob/master/Labs1/Lab1_2_2.png?raw=true) диаграммы прецедентов
+ 
 ![none](https://github.com/AirNus/AirNus.github.io/blob/master/Labs1/Lab1_2_2.png?raw=true)
 
 # Лабораторная 2
@@ -48,7 +50,9 @@
 ### Мойщик получает веб форму с данными по заказу, подтверждает получение и готовит необходимые ингредиенты.
 
 ## Usecase diagram
-
+ [Текст](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/PlantUML_code%20%E2%80%94%20laba2UseCase.txt) и
+ [рисунок](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/Lab2_usecase_diagram.png?raw=true) диаграммы прецедентов
+ 
 ![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/Lab2_usecase_diagram.png?raw=true)
 
 # Лабораторная 3
