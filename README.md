@@ -59,4 +59,5 @@
 
 ## ER-диаграмма
 
-![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba_main.png?raw=true)
+![текст](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/PlantUML_code.txt) и
+![рисунок](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba_main.png?raw=true) для диаграммы классов
