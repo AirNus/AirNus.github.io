@@ -30,7 +30,11 @@
     
 ## DFD-диаграмма (блок:Управлять):
     
-![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/03_A10.png?raw=true)
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/03_A1.png?raw=true)
+
+## DFD-диаграмма (блок:Подготовить):
+    
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab2/04_A2.png?raw=true)
 
 ## Usecase diagram
 
