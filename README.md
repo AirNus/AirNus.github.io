@@ -68,3 +68,5 @@
 [Текст](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/PlantUML_code.txt) и [рисунок](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba.png?raw=true) для диаграммы классов
 
 ![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba.png?raw=true)
+
+Заказ является записью в БД, которая относится к информационным потокам, и состоит из: Рецепта, Отзыва клиента и товара, который попал в заказ.
