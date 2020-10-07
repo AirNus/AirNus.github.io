@@ -9,7 +9,9 @@
 Предложение: Бариста Заваривает Чай по Заказу из Кипятка и Чайных листьев с помощью Чайника.
 
 ## Class diagram
-
+[Текст](https://github.com/AirNus/AirNus.github.io/blob/master/Labs1/PlantUML_code%20%E2%80%94%20laba1ClassD.txt) и
+[рисунок](https://github.com/AirNus/AirNus.github.io/blob/master/Labs1/JSwn2i903CRnkVSKePE2J-1Kprbq41mbt8Ksz7efkIiTn7StfOlhnvzVqfMAMfSfkJ9odb5nWf2m5FYuncCOUvKbnwiaKNWDNCar5rLPzyKdIomKZQJ_qzVjIkjHsMwqW0KUXiAJS9RgRZZImGidplrxnKfwWlkc7CzROi30aI2mXaIkenpjoHy0.png?raw=true) диаграммы классов
+ 
 ![none](https://github.com/AirNus/AirNus.github.io/blob/master/Labs1/JSwn2i903CRnkVSKePE2J-1Kprbq41mbt8Ksz7efkIiTn7StfOlhnvzVqfMAMfSfkJ9odb5nWf2m5FYuncCOUvKbnwiaKNWDNCar5rLPzyKdIomKZQJ_qzVjIkjHsMwqW0KUXiAJS9RgRZZImGidplrxnKfwWlkc7CzROi30aI2mXaIkenpjoHy0.png?raw=true)
 
 ## Usecase diagram
@@ -63,6 +65,6 @@
 
 ## ER-диаграмма
 
- - [текст](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/PlantUML_code.txt) и [рисунок](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba.png?raw=true) для диаграммы классов
+[Текст](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/PlantUML_code.txt) и [рисунок](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba.png?raw=true) для диаграммы классов
 
 ![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba.png?raw=true)
