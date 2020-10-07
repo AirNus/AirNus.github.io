@@ -73,4 +73,4 @@
 
 # Лабораторная работа 4-6
 
-[Здесь.](https://github.com/AirNus/AirNus.github.io/wiki)
+## [Деловая игра](https://github.com/AirNus/AirNus.github.io/wiki/Business-game)
