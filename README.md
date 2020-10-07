@@ -59,4 +59,4 @@
 
 ## ER-диаграмма
 
-![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba.png?raw=true)
+![none](https://github.com/AirNus/AirNus.github.io/blob/master/Lab3/ERD_Diagramm_3_laba_main.png?raw=true)
