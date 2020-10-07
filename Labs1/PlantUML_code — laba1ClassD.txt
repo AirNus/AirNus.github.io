@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Barista" as P {
+ Teapot
+ Make (Boiling_water, Order): tea
+}
+hide circle
+@enduml
