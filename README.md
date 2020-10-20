@@ -8,4 +8,4 @@
 
 ## [Отчет](https://github.com/AirNus/AirNus.github.io) по лабораторным работам 4-6
 
-## Рефераты: [разработанный]() и [проверенный]()
+## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam10-1) и [проверенный](https://github.com/stankin/design-part-1/wiki/exam08-1)
