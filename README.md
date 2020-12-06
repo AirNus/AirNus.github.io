@@ -6,6 +6,6 @@
 
 ## Домашние задания по [семинарам 3-4](https://github.com/AirNus/AirNus.github.io/wiki/Business-game)
 
-## [Отчет](https://github.com/AirNus/AirNus.github.io) по лабораторным работам 4-6
+## [Отчет](https://github.com/AirNus/AirNus.github.io/wiki/%D0%9E%D1%82%D1%87%D0%B5%D1%82-%D0%BF%D0%BE-%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B8%D0%B3%D1%80%D0%B5) по лабораторным работам 4-6
 
 ## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam10-1) и [проверенный](https://github.com/stankin/design-part-1/wiki/exam08-1)
