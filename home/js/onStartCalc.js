@@ -29,8 +29,10 @@ function onStartCalc(nameMethod) {
             if (UFPEnterValue == null) {
                 return;
             }
-            else
+            else {
                 document.getElementById('UFP').innerHTML = UFPEnterValue;
+                UFP = UFPEnterValue;
+            }
         }
         if (isAllEnter) {
             result = calcFPA2(inputsFPA, language, UFP * 1);
