@@ -26,6 +26,9 @@ function onStartCalc(nameMethod) {
         });
         if (UFP == "Результат будет тут") {
             var UFPEnterValue = prompt("Рассчитайте значение UFP\r\nИли введите его в поле ниже", "Сюда");
+            if (isNaN(UFPEnterValue * 1)) {
+                return;
+            }
             if (UFPEnterValue == null) {
                 return;
             }
