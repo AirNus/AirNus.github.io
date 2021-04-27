@@ -1,0 +1,17 @@
+@startuml
+skinparam monochrome true
+
+database "БД должности" as DbPos
+database "БД табель" as DbTab
+actor Cистема_расчета_заработной_платы as object
+participant "Микросервис расчета зарплаты" as mic
+
+
+
+DbPos -> object: Выбрать сотрудников для расчета
+DbTab -> object: Табель учета рабочего времени
+object-> mic: Начать расчет
+activate mic
+mic -> object: Расчитанные зарплаты
+deactivate mic
+@enduml
