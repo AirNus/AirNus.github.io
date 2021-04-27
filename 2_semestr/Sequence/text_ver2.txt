@@ -1,0 +1,27 @@
+@startuml
+skinparam monochrome true
+
+actor Бухгалтер as Bux
+database "БД должности" as DbPos
+database "БД табель" as DbTab
+participant "Cистема расчета заработной платы" as object
+participant "Микросервис расчета зарплаты" as mic
+
+
+Bux -> DbPos: Выбрать сотрудников для расчета
+activate DbPos
+DbPos -> object: Выбранные сотрудники
+deactivate DbPos
+object -> DbTab: Запрос табельного учета
+activate DbTab
+DbTab -> object: Табель учета рабочего времени
+deactivate DbTab
+Bux -> object: Начать расчет
+activate object
+object-> mic: Расчет
+activate mic
+mic -> object: Результат расчета
+deactivate mic
+object -> Bux : Расчитанные зарплаты
+deactivate object
+@enduml
