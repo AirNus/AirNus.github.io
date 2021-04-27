@@ -1,0 +1,23 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class Payroll as "Расчетный лист"
+
+class Data as "Расчитанные зарплаты"
+
+class Tabel as "Табель учета рабочего времени"
+class DataPosition as "Данные о занимаемых должностях"
+
+
+Payroll <|-- Data 
+Data *-- Tabel 
+Data *-- DataPosition 
+
+hide members
+hide circle
+hide methods
+@enduml
