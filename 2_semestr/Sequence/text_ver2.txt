@@ -3,8 +3,8 @@ skinparam monochrome true
 
 actor Бухгалтер as Bux
 database "БД должности" as DbPos
-database "БД табель" as DbTab
 participant "Cистема расчета заработной платы" as object
+database "БД табель" as DbTab
 participant "Микросервис расчета зарплаты" as mic
 
 
