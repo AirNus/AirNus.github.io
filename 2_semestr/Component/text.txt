@@ -1,0 +1,25 @@
+@startuml
+skinparam component {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+
+skinparam interface {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+
+component [База данных] as DB
+component [Система расчета заработной платы] as Sys
+component [Микросервис] as Mic
+
+() "JSON" as J
+() "Data" as D
+
+DB - D
+D - Sys
+Sys - J
+J - Mic
+@enduml
