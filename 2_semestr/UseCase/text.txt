@@ -1,25 +1,37 @@
 @startuml
 left to right direction
 
-actor "Cистема_расчета_заработной_платы"
-actor "Бухгалтер"
+skinparam actor {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
 
-usecase case1 as "Получить данные о сотрудниках"
+skinparam usecase {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
 
-usecase case2 as "Получить табель учета рабочего времени"
+actor  Bux as "Бухгалтер"
 
-usecase case3 as "Рассчитать заработную плату"
+usecase case1 as "Выбрать сотрудников\nдля расчета"
+usecase case2 as "Рассчитать\nзаработную плату"
+usecase case3 as "Сформировать\nрасчетный лист"
+usecase case4 as "Отправить данные\nв банк"
+usecase case5 as "Отправить расчетный\nлист сотрудникам"
 
-usecase case4 as "Сформировать расчетный лист"
+actor Sys as "Cистема расчета\nзаработной платы"
 
-Бухгалтер --> case1
-Бухгалтер --> case2
+Bux ---> case1
+Bux ---> case2
+Bux ---> case3
+Bux ---> case4
+Bux ---> case5
 
-Cистема_расчета_заработной_платы --> case1
-Cистема_расчета_заработной_платы --> case2
-
-case1 --> case3
-case2 --> case3
-
-case3 --> case4
+case1 <--- Sys
+case2 <--- Sys
+case3 <--- Sys
+case4 <--- Sys
+case5 <--- Sys
 @enduml

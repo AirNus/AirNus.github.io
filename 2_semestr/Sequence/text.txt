@@ -1,17 +1,26 @@
 @startuml
 skinparam monochrome true
 
+actor Бухгалтер as Bux
 database "БД должности" as DbPos
+participant "Cистема расчета\nзаработной платы" as object
 database "БД табель" as DbTab
-actor Cистема_расчета_заработной_платы as object
-participant "Микросервис расчета зарплаты" as mic
+participant "Микросервис\nрасчета зарплаты" as mic
 
 
-
-DbPos -> object: Выбрать сотрудников для расчета
-DbTab -> object: Табель учета рабочего времени
-object-> mic: Начать расчет
+Bux -> DbPos: Выбрать сотрудников\nдля расчета
+activate Bux
+activate DbPos
+DbPos -> object: Выбранные\nсотрудники
+deactivate DbPos
+object -> DbTab: Запрос табельного учета
+activate DbTab
+DbTab -> object: Табель учета\nрабочего времени
+deactivate DbTab
+object-> mic: Расчет
 activate mic
-mic -> object: Расчитанные зарплаты
+mic -> object: Результат расчета
 deactivate mic
+object -> Bux : Расчитанные\nзарплаты
+deactivate Bux
 @enduml
